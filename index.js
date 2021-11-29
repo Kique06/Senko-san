@@ -1,12 +1,3 @@
-/*
-Codigo feito por Nya.#5157
-Code made by Nya.#5157
-
-Add my bot:
-https://discord.com/oauth2/authorize?client_id=813800050987106326&permissions=8&scope=bot
-*/
-
-
 const {  Client, MessageEmbed } = require('discord.js');
 const config = require('./config');
 const YouTube = require('simple-youtube-api')
