@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
 const myID = 'YourIdHere' 
-//var lockedList = ["680893803590189096"]; 
 
 
 exports.run = async (client, message, args) => {
