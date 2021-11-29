@@ -1,11 +1,11 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
-const myID = '680893803590189096' 
+const myID = 'YourIdHere' 
 //var lockedList = ["680893803590189096"]; 
 
 
 exports.run = async (client, message, args) => {
-    var lockedList = ['613831867606630451', ''];
+    var lockedList = ['Bad People here', ''];
     args.join(" ");
 
         const person = message.author.username
@@ -27,17 +27,15 @@ exports.run = async (client, message, args) => {
                 let avatar = message.author.displayAvatarURL({format: "png"});
                 user.send(new Discord.MessageEmbed()
                 .setTitle(`bug report by ${person}`)
-                .setImage(message.author.displayAvatarURL())
                 .setColor('5a5a5a')
                 .addField('Usuario:', message.author.tag)
                 .addField(`Nome do servidor`, `${message.guild.name}`)
-                .addField('ID da guld da mensagem', `${message.guild.id}`)
                 .addField('ID do usuario', `${userID}`)
                 .addField('Reportou o bug:', `${bug}`)
                 .setAuthor(message.author.tag, avatar));
 
-                var guild123 = client.guilds.cache.get('886972849997369394')
-                canal = guild123.channels.cache.get('900067135143948389')
+                var guild123 = client.guilds.cache.get('BugReportGuildIdHere')
+                canal = guild123.channels.cache.get('BugReportChannelIdHere')
                 canal.send(
                 new Discord.MessageEmbed()
                 .setColor('5a5a5a')
