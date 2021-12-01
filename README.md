@@ -1,5 +1,5 @@
 # Senko-san
-Senko-San Discord.js music bot, was made to try out how JavaScript works and help a friend
+The Senko-San Discord.js music bot is was made to test how JavaScript works and help a friend
 
 - command handler: me
 - Tutorial used: [This Cool blog](https://gabrieltanner.org/blog/dicord-music-bot), [Crawl Music Bot series](https://www.youtube.com/c/CrawlToGo/featured)
